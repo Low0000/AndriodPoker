@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="110dp"
+    android:orientation="horizontal"
+    android:background="@color/black">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/cardContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:orientation="horizontal">
+
+            <!-- Add card images dynamically here -->
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
